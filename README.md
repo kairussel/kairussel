@@ -1,5 +1,3 @@
-# Create an HTML file with a password-protected message
-
 html_content = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,12 +21,7 @@ html_content = """<!DOCTYPE html>
 </html>
 """
 
-# Save the file
-file_path = "/mnt/data/VIRUS_DO_NOT_OPEN.html"
-with open(file_path, "w") as file:
-    file.write(html_content)
 
-file_path
 
 
 
